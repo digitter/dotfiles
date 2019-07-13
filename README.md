@@ -1,6 +1,6 @@
 # dotfiles
 
-## Create github repositoty.
+### Create github repositoty.
 
 ### Create dotfiles directory and add some dotfiles.
 
