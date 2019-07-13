@@ -2,7 +2,7 @@
 
 ## Create github repositoty.
 
-## Create dotfiles directory and add some dotfiles.
+### Create dotfiles directory and add some dotfiles.
 
 ```
 cd ~
@@ -14,13 +14,32 @@ mv .some_dotfile dotfiles/
 
 ```
 
+### Create shell
+if some dotfile move directory, we use shell that create symbolic link to read the path of dotfiles.
+
+```
+ #!/bin/bash
+
+  DOT_FILES=(.some_dot_file1 .some_dot_file2 …)
+
+ for file in ${DOT_FILES[@]}
+ do
+     ln -s $HOME/dotfiles/$file $HOME/$file
+ done
 ```
 
-# Create shell
+### Impleemnt shell
+The first line is setting up permissions on a script that allows everyone to execute the script.
+
+```
+chmod +x dotfiles/setup.sh
+
+ cd ~/dotfiles
+
+ ./setup.sh
 ```
 
-
-## Run git commands below
+### Run git commands below
 ```
 git init
 
