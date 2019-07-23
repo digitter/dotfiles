@@ -1,6 +1,12 @@
-export LSCOLORS=Fxfxcxdxbxegedabagacad
 export PATH=/usr/local/bin:"$PATH"
+
 source ~/.bashrc
+
+export LSCOLORS=Fxfxcxdxbxegedabagacad
+
+export PATH="$HOME/.anyenv/bin:$PATH"
+eval "$(anyenv init -)"
+
 # added by Anaconda3 2018.12 installer
 # >>> conda init >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -17,5 +23,3 @@ else
 fi
 unset __conda_setup
 # <<< conda init <<<
-export PATH="$HOME/.anyenv/bin:$PATH"
-eval "$(anyenv init -)"
