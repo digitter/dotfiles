@@ -17,3 +17,6 @@ alias cp='cp -i'
 
 alias rm="rmtrash"
 #alias rm='rm -i'
+
+alias yr='yarn run'
+
