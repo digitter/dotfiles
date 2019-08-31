@@ -20,3 +20,6 @@ alias rm="rmtrash"
 
 alias yr='yarn run'
 
+alias sidekiq-sales='docker exec -it sales bundle exec sidekiq -C config/sidekiq.yml'
+
+
