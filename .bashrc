@@ -21,4 +21,13 @@ alias rm="rmtrash"
 alias yr='yarn run'
 alias sidekiq-sales='docker exec -it sales bundle exec sidekiq -C config/sidekiq.yml'
 
+# MacOS Application
+alias siri='open /Applications/Siri.app'
+alias mail='open /Applications/Mail.app'
+alias slack='open /Applications/Slack.app'
+alias skim='open /Applications/Skim.app'
+alias evernote='open /Applications/Evernote.app'
+
+alias docker-e='open /Applications/Docker.app'
+alias gitk='open /Applications/GitKraken.app'
 
