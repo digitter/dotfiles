@@ -21,7 +21,10 @@ scriptencoding utf-8
 " basic vim settings
 syntax on
 
-set number
+set number "relativenumber
+filetype plugin indent on
+set tabstop=2 shiftwidth=2 expandtab
+set backspace=indent,eol,start
 
 let &t_ti.="\e[1 q"
 let &t_SI.="\e[5 q"
@@ -131,19 +134,6 @@ if &term =~ "xterm"
 
     inoremap <special> <expr> <Esc>[200~ XTermPasteBegin("")
 endif
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
