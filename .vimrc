@@ -1,8 +1,22 @@
+" =============================================
+" Vim-Plug
+call plug#begin('~/.vim/plugged')
+
+Plug 'tpope/vim-sensible'
+Plug 'junegunn/vim-easy-align'
+
+call plug#end()
+autocmd VimEnter *
+    \ if !empty(filter(copy(g:plugs), '!isdirectory(v:val.dir)'))
+    \|      PlugInstall | q
+    \|  endif
+
+" ============================================
+
 " ファイル読み込み時の文字コードの設定
 set encoding=utf-8
 " vim script内でマルチバイト文字を利用する場合の設定
 scriptencoding utf-8
-
 
 " basic vim settings
 syntax on
