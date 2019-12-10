@@ -22,7 +22,7 @@ tmux send-key 'cd Baseconnect_Projects/sales' C-m
 tmux send-keys 'yr start:sales:dev:local' C-m
 tmux split-window -h
 tmux send-key 'cd Baseconnect_Projects/sales' C-m
-tmux send-keys 'bin/rails s -p 3002' C-m
+tmux send-keys 'rails s -p 3002' C-m
 tmux split-window -h
 tmux send-key 'cd Baseconnect_Projects/sales' C-m
 tmux send-keys 'cal' C-m
@@ -33,7 +33,7 @@ tmux send-key 'cd Baseconnect_Projects/sales' C-m
 tmux send-keys 'tig' C-m
 tmux split-window -h
 tmux send-keys 'cd Baseconnect_Projects/sales' C-m
-tmux send-keys 'RAILS_ENV=development bundle exec rspec spec/  --fail-fast'
+tmux send-keys 'slack'
 tmux split-window -h
 tmux send-keys 'cd Baseconnect_Projects/sales' C-m
 tmux send-keys 'cal' C-m
