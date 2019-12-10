@@ -40,13 +40,14 @@ alias rails0='bundle exec rails s -b 0.0.0.0'
 alias sidekiq-sales='docker exec -it sales bundle exec sidekiq -C config/sidekiq.yml'
 alias startsales='yarn run start:sales:dev:local'
 alias buildsales='yarn run build:sales:dev:local'
-alias buildadmin='cd admin/ && yarn run dev:serve:local'
+alias buildadmin='yarn run dev:serve:local'
 
 # pay gateway
 # paprika
 
 ########## Open MacOS Application ##########
 
+alias safari='open /Applications/Safari.app'
 alias siri='open /Applications/Siri.app'
 alias mail='open /Applications/Mail.app'
 alias slack='open /Applications/Slack.app'
