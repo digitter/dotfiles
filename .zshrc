@@ -4,21 +4,35 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/kazuki/.oh-my-zsh"
 
+export GOPATH=$HOME/go
+export GOPATH=$HOME/projects/go
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 
+# tmuxp setting suggested
+export DISABLE_AUTO_TITLE='true'
+
 # ZSH_THEME="robbyrussell"
-# ZSH_THEME="candy"
+# 時間表示%
+ # ZSH_THEME="candy"
 # ZSH_THEME="refined"
-# borderがgood ! 
+# 点線borderのやつ ! 
 # ZSH_THEME="af-magic"
 # ZSH_THEME="magic-af"
 # ありだけど文字化け
-#ZSH_THEME="agnoster"
+# ZSH_THEME="agnoster"
 # かわいい
-ZSH_THEME="cloud"
+# ZSH_THEME="cloud"
+# ZSH_THEME="amuse"
+# ZSH_THEME="sunrise"
+# ZSH_THEME="aussiegeek"
+### ZSH_THEME="dallas"
+### ZSH_THEME="spaceship"
+eval "$(starship init zsh)"
+# ZSH_THEME="wezm"
 
 
 # Set list of themes to pick from when loading at random
@@ -116,3 +130,4 @@ source ~/.bash_profile
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export PATH="/usr/local/opt/libxml2/bin:$PATH"
