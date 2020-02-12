@@ -21,7 +21,7 @@ alias tree='tree -C'
 alias mv='mv -i'
 alias cp='cp -i'
 alias rm='rm -i'
-alias trash="rmtrash"
+alias tr="rmtrash"
 
 # Application Command
 alias yr='yarn run'
