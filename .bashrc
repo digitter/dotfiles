@@ -34,7 +34,7 @@ alias rails0='bundle exec rails s -b 0.0.0.0'
 # weather
 alias nara='curl wttr.in/nara'
 alias osaka='curl wttr.in/osaka'
-alias osaka='curl wttr.in/kyoto'
+alias kyoto='curl wttr.in/kyoto'
 
 # MacOS Application
 alias safari='open /Applications/Safari.app'
