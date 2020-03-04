@@ -20,6 +20,6 @@ VSCODE=(
 )
 for file in ${VSCODE[@]}
 do
-    ln -s $HOME/dotfiles/$file $HOME/Library/Application\ Support/Code/User/$file
+    ln -s $HOME/dotfiles/vscode/$file $HOME/Library/Application\ Support/Code/User/$file
 done
 
