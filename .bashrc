@@ -14,14 +14,15 @@ alias atse='tmux attach -t'
 
 # Unix Command
 alias resh='exec $SHELL -l'
-alias ls='ls -G'
-alias la='ls -a'
-alias ll='ls -l'
+alias ls='exa -G'
+    alias la='ls -a'
+    alias ll='ls -l'
+alias ps='procs'
 alias tree='tree -C'
 alias mv='mv -i'
 alias cp='cp -i'
 alias rm='rm -i'
-alias tr="rmtrash"
+alias trash="rmtrash"
 
 # Application Command
 alias yr='yarn run'
