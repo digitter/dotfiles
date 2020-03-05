@@ -1,0 +1,22 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+shift+o",
+    "command": "settings.switchToJSON"
+  },
+  {
+    "key": "alt+cmd+l",
+    "command": "copyRelativeFilePath",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+cmd+c",
+    "command": "-copyRelativeFilePath",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "alt+d",
+    "command": "workbench.action.splitEditor"
+  },
+]
+

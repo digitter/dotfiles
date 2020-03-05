@@ -17,9 +17,9 @@ done
 
 VSCODE=(
     settings.json
+    keybindings.json
 )
 for file in ${VSCODE[@]}
 do
     ln -s $HOME/dotfiles/vscode/$file $HOME/Library/Application\ Support/Code/User/$file
 done
-
