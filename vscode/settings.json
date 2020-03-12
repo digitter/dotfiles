@@ -23,6 +23,9 @@
     "emmet.syntaxProfiles": {
         "javascript": "jsx",
     },
+    "emmet.includeLanguages": {
+        "erb": "html",
+    },
     "breadcrumbs.enabled": true,
     "workbench.colorTheme": "Night Owl",
     "typescript.tsdk": "./node_modules/typescript/lib",
