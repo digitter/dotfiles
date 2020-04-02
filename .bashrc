@@ -5,7 +5,11 @@
 # GIT_PS1_SHOWDIRTYSTATE=true
 # export PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\n\$ '
 
-########## Global Settings ##########
+##########  Settings ##########
+# Paths
+export GOPATH=$HOME/products/go
+export GOPATH=$HOME/go
+
 # Tmux Command
 alias retm='tmux source-file ~/.tmux.conf'
 alias killtm='tmux kill-server'
@@ -15,8 +19,8 @@ alias atse='tmux attach -t'
 # Unix Command
 alias resh='exec $SHELL -l'
 alias ls='exa -G'
-    alias la='ls -a'
-    alias ll='ls -l'
+    alias la='exa -a'
+    alias ll='exa -l'
 alias ps='procs'
 alias cat='bat'
 alias tree='tree -C'
@@ -25,13 +29,15 @@ alias cp='cp -i'
 alias rm='rm -i'
 alias trash="rmtrash"
 
-# Application Command
+# Commands for Application
 alias yr='yarn run'
 alias dccp='docker-compose'
 alias sidekiq='bundle exec sidekiq -C config/sidekiq.yml'
-alias featuredev='RAILS_ENV=development bundle exec rspec'
-alias featurepre='RAILS_ENV=pretest bundle exec rspec'
+alias featuredev='RAILS_ENV=development bundle exec rspec spec/feature/'
+alias featurepre='RAILS_ENV=pretest bundle exec rspec spec/feature/'
+alias rsdoc='bundle exec rspec spec/ --format documentation'
 alias rails0='bundle exec rails s -b 0.0.0.0'
+alias kill3000='kill -9 $(lsof -i tcp:3000 -t)'
 
 # weather
 alias nara='curl wttr.in/nara'
@@ -43,7 +49,6 @@ alias safari='open /Applications/Safari.app'
 alias vivaldi='open /Applications/Vivaldi.app'
 alias chrome='open /Applications/Google\ Chrome.app'
 
-alias gitk='open /Applications/GitKraken.app'
 alias gitd='open /Applications/GitHub\ Desktop.app'
 alias gitf='open /Applications/Fork.app'
 

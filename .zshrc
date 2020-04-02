@@ -5,7 +5,7 @@
 export ZSH="/Users/kazuki/.oh-my-zsh"
 
 export GOPATH=$HOME/go
-export GOPATH=$HOME/projects/go
+export GOPATH=$HOME/products/go
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
