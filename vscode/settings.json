@@ -9,7 +9,7 @@
     "workbench.startupEditor": "welcomePage",
     "editor.renderWhitespace": "all",
     "diffEditor.ignoreTrimWhitespace": true,
-    "window.zoomLevel": -1,
+    "window.zoomLevel": -2,
     "editor.wordWrap": "on",
     "editor.snippetSuggestions": "top",
     "css.lint.boxModel": "warning",
@@ -34,6 +34,7 @@
         "editor.defaultFormatter": "misogi.ruby-rubocop"
     },
     "ruby.format": "rubocop",
+    "ruby.rubocop.onSave": true,
     "vim.insertModeKeyBindings": [
         {
             "before": [
