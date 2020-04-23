@@ -17,15 +17,13 @@ export DISABLE_AUTO_TITLE='true'
 
 # ZSH_THEME="robbyrussell"
 # 時間表示%
- # ZSH_THEME="candy"
+# ZSH_THEME="candy"
 # ZSH_THEME="refined"
 # 点線borderのやつ ! 
 # ZSH_THEME="af-magic"
 # ZSH_THEME="magic-af"
 # ありだけど文字化け
 # ZSH_THEME="agnoster"
-# かわいい
-# ZSH_THEME="cloud"
 # ZSH_THEME="amuse"
 # ZSH_THEME="sunrise"
 # ZSH_THEME="aussiegeek"
@@ -130,5 +128,4 @@ source ~/.bash_profile
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-# export PATH="/usr/local/opt/libxml2/bin:$PATH"
 
