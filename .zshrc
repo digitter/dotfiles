@@ -15,29 +15,14 @@ export GOPATH=$HOME/products/go
 # tmuxp setting suggested
 export DISABLE_AUTO_TITLE='true'
 
-# ZSH_THEME="robbyrussell"
-# 時間表示%
-# ZSH_THEME="candy"
-# ZSH_THEME="refined"
-# 点線borderのやつ ! 
-# ZSH_THEME="af-magic"
-# ZSH_THEME="magic-af"
-# ありだけど文字化け
-# ZSH_THEME="agnoster"
-# ZSH_THEME="amuse"
-# ZSH_THEME="sunrise"
-# ZSH_THEME="aussiegeek"
-### ZSH_THEME="dallas"
-### ZSH_THEME="spaceship"
-eval "$(starship init zsh)"
-# ZSH_THEME="wezm"
-
-
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+
+eval "$(starship init zsh)"
+# ZSH_THEME="candy"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -100,11 +85,7 @@ autoload -U compinit && compinit -u
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
-source ~/.bashrc
-source ~/.bash_profile
 # User configuration
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -119,6 +100,9 @@ source ~/.bash_profile
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
+source $ZSH/oh-my-zsh.sh
+source ~/.bashrc
+source ~/.bash_profile
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
