@@ -3,7 +3,6 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/kazuki/.oh-my-zsh"
-
 export GOPATH=$HOME/go
 export GOPATH=$HOME/products/go
 
@@ -103,6 +102,17 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 source ~/.bashrc
 source ~/.bash_profile
+
+function ghq-fzf() {
+  local src=$(ghq list | fzf --preview "ls -laTp $(ghq root)/{} | tail -n+4 | awk '{print \$9\"/\"\$6\"/\"\$7 \" \" \$10}'")
+  if [ -n "$src" ]; then
+    BUFFER="cd $(ghq root)/$src"
+    zle accept-line
+  fi
+  zle -R -c
+}
+zle -N ghq-fzf
+bindkey '^]' ghq-fzf
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
