@@ -28,7 +28,6 @@ alias tree='tree -C'
 alias mv='mv -i'
 alias cp='cp -i'
 alias rm='rm -i'
-alias trash="rmtrash"
 
 # Commands for Application
 alias yr='yarn run'
@@ -67,7 +66,6 @@ alias terminal='open /Applications/Terminal.app'
 alias iterm='open /Applications/iTerm.app'
 
 alias siri='open /Applications/Siri.app'
-alias mail='open /Applications/Mail.app'
 alias slack='open /Applications/Slack.app'
 alias tablep='open /Applications/TablePlus.app'
 alias map='open /Applications/Maps.app'
