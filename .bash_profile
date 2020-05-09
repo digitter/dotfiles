@@ -1,4 +1,8 @@
+export LANG=ja_JP.UTF-8
 export PATH=/usr/local/bin:"$PATH"
+
+export PATH="$HOME/.cargo/bin:$PATH"
+
 
 source ~/.bashrc
 
@@ -6,7 +10,7 @@ source ~/.bashrc
 
 export LANG="ja_JP.UTF-8"
 
-export LSCOLORS=Fxfxcxdxbxegedabagacad
+# export LSCOLORS=Fxfxcxdxbxegedabagacad
 
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
