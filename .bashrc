@@ -1,5 +1,3 @@
-# 127.0.0.1 app.musubu.in staging-app.musubu.in
-
 # source /usr/local/etc/bash_completion.d/git-prompt.sh
 # source /usr/local/etc/bash_completion.d/git-completion.bash
 # GIT_PS1_SHOWDIRTYSTATE=true
@@ -22,7 +20,7 @@ alias ls='exa -G'
     alias la='exa -a'
     # l ↓
     # alias lla='exa -Gla'
-alias ps='procs'
+# alias ps='procs'
 alias cat='bat'
 alias tree='tree -C'
 alias mv='mv -i'
