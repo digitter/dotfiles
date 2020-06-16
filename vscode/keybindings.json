@@ -18,5 +18,12 @@
     "key": "alt+d",
     "command": "workbench.action.splitEditor"
   },
+  {
+    "key": "cmd+q cmd+q", "command": "workbench.action.quit"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.closeWindow",
+    "when": "!editorIsOpen && !multipleEditorGroups"
+  }
 ]
-
