@@ -9,3 +9,4 @@ export LANG="ja_JP.UTF-8"
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
 
+# source ~/.bashrc
