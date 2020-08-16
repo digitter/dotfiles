@@ -9,7 +9,7 @@
     "workbench.startupEditor": "welcomePage",
     "editor.renderWhitespace": "all",
     "diffEditor.ignoreTrimWhitespace": true,
-    "window.zoomLevel": -3,
+    "window.zoomLevel": -2,
     "editor.wordWrap": "on",
     "editor.snippetSuggestions": "top",
     "css.lint.boxModel": "warning",
@@ -27,7 +27,7 @@
         "erb": "html",
     },
     "breadcrumbs.enabled": true,
-    "workbench.colorTheme": "Night Owl",
+    "workbench.colorTheme": "Twilight",
     "typescript.tsdk": "./node_modules/typescript/lib",
     "editor.renderControlCharacters": true,
     "[ruby]": {
@@ -37,16 +37,13 @@
     "ruby.rubocop.onSave": true,
     "vim.insertModeKeyBindings": [
         {
-            "before": [
-                "z",
-                "z"
-            ],
+            "before": ["<C-]>"],
             "after":[
                 "<Esc>"
             ]
         },
     ],
-    "vim.useCtrlKeys": false,
+    "vim.useCtrlKeys": true,
     "peacock.favoriteColors": [
         {
             "name": "Angular Red",
