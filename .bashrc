@@ -78,7 +78,4 @@ alias startsales='yarn run start:sales:dev:local'
 alias buildsales='yarn run build:sales:dev:local'
 alias buildadmin='yarn run dev:serve:local'
 
-# pay gateway
-
-# paprika
 
