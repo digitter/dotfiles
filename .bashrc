@@ -43,30 +43,6 @@ alias osaka='curl wttr.in/osaka'
 alias kyoto='curl wttr.in/kyoto'
 
 # MacOS Application
-alias safari='open /Applications/Safari.app'
-alias vivaldi='open /Applications/Vivaldi.app'
-alias chrome='open /Applications/Google\ Chrome.app'
-
-alias gitd='open /Applications/GitHub\ Desktop.app'
-alias gitf='open /Applications/Fork.app'
-
-alias skim='open /Applications/Skim.app'
-alias kindle='open /Applications/Kindle.app'
-alias dbox='open /Applications/Dropbox.app'
-
-alias evernote='open /Applications/Evernote.app'
-alias boostnote='open /Applications/Boostnote.app'
-alias trello='open /Applications/Trello.app'
-alias pocket='open /Applications/Pocket.app'
-
-alias hyper='open /Applications/Hyper.app'
-alias terminal='open /Applications/Terminal.app'
-alias iterm='open /Applications/iTerm.app'
-
-alias siri='open /Applications/Siri.app'
-alias slack='open /Applications/Slack.app'
-alias tablep='open /Applications/TablePlus.app'
-alias map='open /Applications/Maps.app'
 alias docker-e='open /Applications/Docker.app'
 alias virtualbox-e='open /Applications/VirtualBox.app'
 alias medis="cd ~/Applications/medis;npm start"
@@ -78,4 +54,6 @@ alias startsales='yarn run start:sales:dev:local'
 alias buildsales='yarn run build:sales:dev:local'
 alias buildadmin='yarn run dev:serve:local'
 
+# Bookers command for revirew
+alias bookers='bundle --path vendor/bundle && rails db:migrate && rails db:migrate RAILS_ENV=test && rsdoc && rails s'
 
