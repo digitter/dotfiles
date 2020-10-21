@@ -101,4 +101,7 @@
     "plantuml.commandArgs": ["-Xmx2g", "-DPLANTUML_LIMIT_SIZE=16384"],
     "plantuml.render": "Local",
     "workbench.iconTheme": "material-icon-theme",
+    "markdown.marp.enableHtml": true,
+    "markdown.marp.themes": [
+        "./marp_styles/test.css"
 }
