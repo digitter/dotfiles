@@ -25,6 +25,8 @@
     },
     "emmet.includeLanguages": {
         "erb": "html",
+        "jsx": "html",
+        "tsx": "html"
     },
     "breadcrumbs.enabled": true,
     "workbench.colorTheme": "Twilight",
