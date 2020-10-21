@@ -55,5 +55,5 @@ alias buildsales='yarn run build:sales:dev:local'
 alias buildadmin='yarn run dev:serve:local'
 
 # Bookers command for revirew
-alias bookers='bundle --path vendor/bundle && rails db:migrate && rails db:migrate RAILS_ENV=test && rsdoc && rails s'
+alias bookers='bundle --path vendor/bundle && rails db:migrate && RAILS_ENV=test rails db:migrate  && rsdoc  && code . && rails s'
 
