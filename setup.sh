@@ -8,6 +8,7 @@ DOT_FILES=(
     .tigrc
     .zshrc
     sales.sh
+    moneylog.sh
 )
 
 for file in ${DOT_FILES[@]}

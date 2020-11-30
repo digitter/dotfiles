@@ -26,7 +26,6 @@ if dein#check_install()
   call dein#install()
 endif
 
-
 map <Space>n <plug>NERDTreeTabsToggle<CR>
 
 " Emacs key bindings
@@ -40,4 +39,10 @@ imap <C-e> <End>
 imap <C-d> <Del>
 imap <C-h> <BS>
 imap <C-k> <C-r>=<SID>kill()<CR>
+
+set nu
+
+" 紫がいい感じのカラー
+" colorscheme dogrun
+colorscheme iceberg 
 

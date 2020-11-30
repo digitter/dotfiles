@@ -18,3 +18,9 @@ repo = 'itchyny/lightline.vim'
 [[plugins]]
 repo = 'ryanoasis/vim-devicons'
 
+# [[plugins]]
+# repo = 'wadackel/vim-dogrun'
+
+[[plugins]]
+repo = 'cocopon/iceberg.vim'
+
