@@ -42,7 +42,7 @@ imap <C-k> <C-r>=<SID>kill()<CR>
 
 set number
 set termguicolors
-set runtimepath^=~/.config/nvim/bundle/ctrlp.vim
+set rtp+=/usr/local/opt/fzf
 
 " color schemes ================================
 " 紫がいい感じのカラー

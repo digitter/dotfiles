@@ -22,6 +22,15 @@ repo = 'ryanoasis/vim-devicons'
 [[plugins]]
 repo = 'ctrlpvim/ctrlp.vim'
 
+[[plugins]]
+repo = 'junegunn/fzf'
+build_on = '''
+./install -all
+'''
+
+[[plugins]]
+repo = 'junegunn/fzf.vim'
+
 # [[plugins]]
 # repo = 'wadackel/vim-dogrun'
 
