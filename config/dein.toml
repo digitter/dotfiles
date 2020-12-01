@@ -19,9 +19,12 @@ repo = 'itchyny/lightline.vim'
 [[plugins]]
 repo = 'ryanoasis/vim-devicons'
 
+[[plugins]]
+repo = 'ctrlpvim/ctrlp.vim'
+
 # [[plugins]]
 # repo = 'wadackel/vim-dogrun'
 
-[[plugins]]
-repo = 'cocopon/iceberg.vim'
+# [[plugins]]
+# repo = 'cocopon/iceberg.vim'
 
