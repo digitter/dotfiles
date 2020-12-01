@@ -40,7 +40,7 @@ imap <C-d> <Del>
 imap <C-h> <BS>
 imap <C-k> <C-r>=<SID>kill()<CR>
 
-set nu
+set number
 
 " 紫がいい感じのカラー
 " colorscheme dogrun
