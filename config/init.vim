@@ -41,8 +41,15 @@ imap <C-h> <BS>
 imap <C-k> <C-r>=<SID>kill()<CR>
 
 set number
+set termguicolors
+set runtimepath^=~/.config/nvim/bundle/ctrlp.vim
 
+" color schemes ================================
 " 紫がいい感じのカラー
 " colorscheme dogrun
-colorscheme iceberg 
+" colorscheme iceberg
+colorscheme atom-dark-256
 
+"set background=dark
+"colorscheme hybrid
+" ================================================
