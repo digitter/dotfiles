@@ -17,10 +17,10 @@ repo = 'ryanoasis/vim-devicons'
 repo = 'itchyny/lightline.vim'
 
 [[plugins]]
-repo = 'ryanoasis/vim-devicons'
-
-[[plugins]]
 repo = 'ctrlpvim/ctrlp.vim'
+
+# [[plugins]]
+# repo = 'fatih/vim-go'
 
 ########## fzf coc ##########
 [[plugins]]
@@ -31,6 +31,13 @@ build_on = '''
 
 [[plugins]]
 repo = 'junegunn/fzf.vim'
+
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+rev = 'release'
+on_i = 1
+merged = '0'
+hook_source = 'call coil398#init#coc#hook_source()'
 
 ##### A collection of language packs for #####
 [[plugins]]
