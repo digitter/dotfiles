@@ -1,4 +1,4 @@
-SESSION=pay_gateway
+SESSION=moneylog
 
 tmux new-session -d -s $SESSION
 
