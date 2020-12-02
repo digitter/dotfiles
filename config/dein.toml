@@ -22,6 +22,7 @@ repo = 'ryanoasis/vim-devicons'
 [[plugins]]
 repo = 'ctrlpvim/ctrlp.vim'
 
+########## fzf coc ##########
 [[plugins]]
 repo = 'junegunn/fzf'
 build_on = '''
@@ -31,6 +32,11 @@ build_on = '''
 [[plugins]]
 repo = 'junegunn/fzf.vim'
 
+##### A collection of language packs for #####
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+
+##### editor color scheme #####
 # [[plugins]]
 # repo = 'wadackel/vim-dogrun'
 

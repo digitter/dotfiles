@@ -45,6 +45,7 @@ set termguicolors
 set rtp+=/usr/local/opt/fzf
 
 " color schemes ================================
+" color schemes ================================================================
 " 紫がいい感じのカラー
 " colorscheme dogrun
 " colorscheme iceberg
@@ -52,4 +53,3 @@ colorscheme atom-dark-256
 
 "set background=dark
 "colorscheme hybrid
-" ================================================
