@@ -9,12 +9,6 @@ export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
 export GOPATH=$HOME/products/go
 export GOPATH=$HOME/go
 
-# Tmux Command
-alias retm='tmux source-file ~/.tmux.conf'
-alias killtm='tmux kill-server'
-alias killse='tmux kill-session -t'
-alias atse='tmux attach -t'
-
 # Unix Command
 alias resh='exec $SHELL -l'
 alias ls='exa -G'
@@ -27,6 +21,12 @@ alias tree='tree -C'
 alias mv='mv -i'
 alias cp='cp -i'
 alias rm='rm -i'
+
+# Tmux Command
+alias retm='tmux source-file ~/.tmux.conf'
+alias killtm='tmux kill-server'
+alias killse='tmux kill-session -t'
+alias atse='tmux attach -t'
 
 # Commands for Application
 alias yr='yarn run'
@@ -44,8 +44,6 @@ alias osaka='curl wttr.in/osaka'
 alias kyoto='curl wttr.in/kyoto'
 
 # MacOS Application
-alias docker-e='open /Applications/Docker.app'
-alias virtualbox-e='open /Applications/VirtualBox.app'
 alias medis="cd ~/Applications/medis;npm start"
 
 ########## For specific project ###########
@@ -56,5 +54,5 @@ alias buildsales='yarn run build:sales:dev:local'
 alias buildadmin='yarn run dev:serve:local'
 
 # Bookers command for revirew
-alias bookers='bundle --path vendor/bundle && rails db:migrate && RAILS_ENV=test rails db:migrate  && rsdoc  && code . && rails s'
+alias bookers='bundle --path vendor/bundle; rails db:migrate; RAILS_ENV=test rails db:migrate; rsdoc; code .; rails s'
 
