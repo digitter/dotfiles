@@ -8,6 +8,7 @@
 export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
 export GOPATH=$HOME/products/go
 export GOPATH=$HOME/go
+export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
 
 # Unix Command
 alias resh='exec $SHELL -l'
