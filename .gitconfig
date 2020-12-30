@@ -1,0 +1,34 @@
+[user]
+	name = kazuki
+	email = matchingserver@gmail.com
+[color]
+	ui = true
+[help]
+	autocorrect = 1
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[core]
+	excludesfile = /Users/kazuki/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/kazuki/.stCommitMsg
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+[pull]
+	rebase = true
+[ghq]
+	root = ~/products
+[url "git@github.com:"]
+	pushinsteadof = https://github.com/
+

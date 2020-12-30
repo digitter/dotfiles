@@ -7,6 +7,7 @@ DOT_FILES=(
     .tmux.conf
     .tigrc
     .zshrc
+    .gitconfig
     sales.sh
     moneylog.sh
 )
