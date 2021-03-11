@@ -25,6 +25,6 @@ tmux send-keys 'tig' C-m
 
 tmux split-window -h # 1
 tmux send-key 'cd products/github.com/digitter/moneylog' C-m
-tmux send-keys 'mysql.server start && code .' C-m
+tmux send-keys 'mysql.server start' C-m
 
 tmux attach -t $SESSION
